@@ -35,12 +35,15 @@ include("inc/header.php");
 	    </div>
 	    <div class="project-description">
 		    <p><?php echo $item["description"]; ?></p>
+		    <div class="hire content-action margin-top">
+	        	<a href="<?php echo $item["url"] ?>"><?php echo $item["urlText"] ?></a>
+	    	</div>
 		</div>    
 		<div class="break">
           <hr>
         </div>
         <h1 class="content-header">Need help?</h1>
-        <div class="hire" class="content-action">
+        <div class="hire content-action">
 	        <a href="contact.php">Contact Me</a>
 	    </div>
 	</div>

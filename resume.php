@@ -1,7 +1,7 @@
 <?php 
 	
 $pageTitle = "Resume";
-$pageHeading = "Rèsumè";
+$pageHeading = "Résumé";
 $pageHeadingLink = "Download PDF";
 $pageHeadingLinkUrl = "HenryJResume.pdf";
 
@@ -75,7 +75,7 @@ include("inc/header.php");
 			        </div>
 		
 			        <h1 class="content-header">Need help?</h1>
-			        <div id="hire" class="content-action">
+			        <div class="hire" class="content-action">
 				        <a href="contact.php">Contact Me</a>
 				    </div>
 		</div>

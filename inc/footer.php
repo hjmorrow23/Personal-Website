@@ -12,6 +12,7 @@
 				<li><a href="bio.php" <?php if($pageTitle == "Bio") {echo 'id="select"';} ?>>Bio</a></li>
 				<li><a href="portfolio.php" <?php if($pageTitle == "Portfolio") {echo 'id="select"';} ?>>Portfolio</a></li>
 				<li><a href="resume.php" <?php if($pageTitle == "Resume") {echo 'id="select"';} ?>>Résumé</a></li>
+				<li><a href="blog.php" <?php if($pageTitle == "Blog") {echo 'id="select"';} ?>>Blog</a></li>
                 <li><a href="contact.php" <?php if($pageTitle == "Contact") {echo 'id="select"';} ?>>Contact</a></li>
 		   	 </ul>
 		   </div>	
@@ -29,6 +30,7 @@
 		    <a href="bio.php">Bio</a>
 		    <a href="portfolio.php">Portfolio</a>
 		    <a href="resume.php">Resume</a>
+		    <a href="blog.php">Blog</a>
 		    <a href="contact.php">Contact</a>
 		</div>  
 	</div>  

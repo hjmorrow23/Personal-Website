@@ -83,12 +83,12 @@ include("inc/header.php");
 			        ?>
 			        </div>	        
 				    <div id="contact">
-						<form method="post" action="action="https://formspree.io/hjmorrow23@gmail.com"">
+						<form method="post" action="https://formspree.io/hjmorrow23@gmail.com">
 				           <label for="name">Name</label>
 				           <input type="text" id="name" name="name" value="<?php if (isset($name)) { echo $name; } ?>" />			            
 				           <label for="email">Email</label>
 				           <input type="text" id="email" name="_replyto" value="<?php if (isset($email)) { echo $email; } ?>" />
-					       <label for="name">Suggest Item Details</label>
+					       <label for="name">Project Details</label>
 						   <textarea name="details" id="details"><?php if (isset($details)) { echo htmlspecialchars($_POST["details"]); } ?></textarea>
 						   <input type="hidden" name="_next" value="contact.php?status=thanks" />
 				            <div style="display:none">

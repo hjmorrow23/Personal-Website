@@ -37,7 +37,7 @@ include("inc/header.php");
 					</div>
 					<div class="section-content">
 						<div class="hire">
-				        	<a href="contact.php" id="more-projects">More Projects</a>
+				        	<a href="portfolio.php" id="more-projects">More Projects</a>
 				    	</div>
 					</div>
 			        <div class="break">

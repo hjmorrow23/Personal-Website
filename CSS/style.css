@@ -190,6 +190,10 @@ p {
   padding-bottom: 3.125rem;
 }
 
+.margin-top {
+	margin-top: 2rem;
+}
+
 .content p{
   text-align: center;
 }
@@ -248,6 +252,9 @@ hr {
 }
 .photo-container img {
  	max-width: 100%;
+ 	-webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,1);
+	box-shadow: 0px 3px 12px 0px rgba(0,0,0,1);
 }
 
 .photo img {

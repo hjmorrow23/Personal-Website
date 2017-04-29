@@ -31,7 +31,7 @@
     <!-- External Normalize, CSS, and Javascript-->
 
   <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="CSS/style.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
 </head>
 <body>
@@ -51,7 +51,7 @@
 					<li><a href="bio.php" <?php if($pageTitle == "Bio") {echo 'id="selected"';} ?>>Bio</a></li>
 					<li><a href="portfolio.php" <?php if($pageTitle == "Portfolio") {echo 'id="selected"';} ?>>Portfolio</a></li>
 					<li><a href="resume.php" <?php if($pageTitle == "Resume") {echo 'id="selected"';} ?>>Résumé</a></li>
-					<li><a href="blog.php" <?php if($pageTitle == "Blog") {echo 'id="selected"';} ?>>Blog</a></li>
+					<li><a href="http://blog.henrymorrow.com/wp" <?php if($pageTitle == "Blog") {echo 'id="selected"';} ?>>Blog</a></li>
 	                <li><a href="contact.php" <?php if($pageTitle == "Contact") {echo 'id="selected"';} ?>>Contact</a></li>
 	                
 

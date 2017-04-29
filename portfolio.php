@@ -10,7 +10,7 @@ include("inc/header.php");
 ?>
 
 	<div class="content">
-		<h2 class="content-header">Past Projects</h2>		
+		<h1 class="content-header">Projects</h1>		
 		<div class="project-container">
 			<?php $portfolio = array_category($project);
             foreach ($portfolio as $id) {
@@ -50,6 +50,7 @@ include("inc/header.php");
 			</div>	
 -->	
 		</div>
+		
 		<div class="break">
           <hr>
         </div>

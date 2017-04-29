@@ -26,7 +26,7 @@ include("inc/header.php");
 			        <h2 class="content-header">Projects</h2>		
 					<div class="project-sample">
 						<?php 
-							$portfolio = array_category($project);
+							$portfolio = array_category($project, $title);
 							$i = 0;
 				            foreach ($portfolio as $id) {
 				                echo get_item_html($id,$project[$id]);

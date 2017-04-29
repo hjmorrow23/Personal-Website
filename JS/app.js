@@ -1,7 +1,3 @@
-//Hides and fades in the heading and heading-item
-$(".main-heading").hide().fadeIn(3000);
-$(".heading-item").hide().fadeIn(3000);
-
 //Include Mobile Nav
 $('.menu-icon').click(function() {
     if ($('.page-container').hasClass('active')) {

@@ -18,9 +18,9 @@ $project[2] = [
     "status" => "incomplete" 
 ];
 $project[3] = [
-    "title" => "Konoha Ninja Academy",
-	"img" => "IMG/konoha.jpg",
-	"url" => "https://github.com/hjmorrow23/Konoha-Ninja-Academy",
+    "title" => "Modern Web",
+	"img" => "IMG/modernweb.png",
+	"url" => "https://github.com/hjmorrow23/mw-2017",
 	"urlText" => "Visit Github",
     "description" => "This is actually a website for a fictional school based from the popular Manga and Anime Naruto. I tried to imagine what a website would like like for the ninja school described in the manga that aimed to encourage new students to enroll. This site was built with the BEM methodology for class names and modular css organization. This site uses PHP for news article generation and JQuery for transitions and the accordion menu. This site is currently awaiting final changes before launch, but feel free to check out the code on Github with the link below.",
     "status" => "incomplete"

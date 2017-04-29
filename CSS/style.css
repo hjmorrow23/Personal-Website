@@ -68,6 +68,15 @@ p {
     text-decoration: none;
 }
 
+.main-logo,
+.main-nav,
+.menu-icon,
+.heading-item {
+	opacity: 0;
+	transform: translateY(1rem);
+	transition: opacity 3s, transform 3s;
+}
+
 .main-logo a,
 .main-nav a,
 .heading-item a,

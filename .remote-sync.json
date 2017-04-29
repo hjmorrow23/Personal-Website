@@ -1,0 +1,14 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "henrymorrow.com",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "henrymor",
+  "password": "yh78hYCa75",
+  "watch": []
+}

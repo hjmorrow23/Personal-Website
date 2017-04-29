@@ -12,7 +12,7 @@ function get_item_html($id,$item) {
 		    return $output;
 }
 
-function array_category($project,$title) {
+function array_category($project, $title) {
     $output = array();
     
     foreach ($project as $id => $item) {

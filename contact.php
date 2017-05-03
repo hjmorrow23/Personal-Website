@@ -101,5 +101,6 @@ include("inc/header.php");
 			        </div>		
 				<?php } ?>
 		</div>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 			        
 <?php include("inc/footer.php"); ?>

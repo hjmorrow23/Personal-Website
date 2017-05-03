@@ -4,7 +4,7 @@ include("inc/functions.php");
 	
 $pageTitle = "Home";
 $pageHeading = "Henry Morrow";
-$pageHeadingLink = "Resume";
+$pageHeadingLink = "Résumé";
 $pageHeadingLinkUrl = "resume.php";
 
 	
@@ -17,13 +17,14 @@ include("inc/header.php");
 				<div class="section-content">
 					<h2 class="content-header">A Little Intro</h2>
 					<div class="intro-content">
-					  <p>I truly enjoy connecting clients with an opportunity that can help them reach their future goals! I also have a passion for learning about technology and ways it can be used to help make life easier. This drive led me to learn coding and build this site. I also have skills in recruiting, human resources and outside sales. Feel free to reach out to find out how I can be an asset to your organization!</p>
+					  <p>I'm a Front End Web Developer who loves working with and learning about the web. I have a passion for learning about technology and ways it can be used to help make life easier. I'm always happy to connect on what's new in web development, gaming, basketball and how I can help others use the web to accomplish their goals.</p>
 			        </div>
 			    </div>
+<!--
 			        <div class="break">
-			          <hr>
 			        </div>
-			        <h2 class="content-header">Projects</h2>		
+-->
+			        <h2 class="content-header"><a href="portfolio.php">Projects</a></h2>		
 					<div class="project-sample">
 						<?php 
 							$portfolio = array_category($project, $title);
@@ -35,19 +36,24 @@ include("inc/header.php");
 				            }			            
 			            ?>            
 					</div>
+<!--
 					<div class="section-content">
 						<div class="hire">
 				        	<a href="portfolio.php" id="more-projects">More Projects</a>
 				    	</div>
 					</div>
+-->
+<!--
 			        <div class="break">
 			          <hr>
 			        </div>
-			        <h1 class="content-header">Need help?</h1>
+-->
+			        <h1 class="content-header">Want to connect?</h1>
 			        <div class="hire">
 			        	<a href="contact.php">Contact Me</a>
 			    	</div>
 			</div>
 		</div>	
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		
 <?php include("inc/footer.php"); ?>

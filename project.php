@@ -39,13 +39,11 @@ include("inc/header.php");
 	        	<a href="<?php echo $item["url"] ?>"><?php echo $item["urlText"] ?></a>
 	    	</div>
 		</div>    
-		<div class="break">
-          <hr>
-        </div>
-        <h1 class="content-header">Need help?</h1>
+        <h1 class="content-header">Want to connect?</h1>
         <div class="hire content-action">
 	        <a href="contact.php">Contact Me</a>
 	    </div>
 	</div>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <?php include("inc/footer.php"); ?>

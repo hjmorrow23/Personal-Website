@@ -1,10 +1,11 @@
+<!doctype html>
 <head>
     <title><?php echo $pageTitle; ?> | Henry Morrow</title>
     <meta charset="UTF-8">
 
     <!-- Information that will display with description> -->
 
-    <meta name="description" content="Welcome to my page! I'm an outside sales professional and web developer currently living near Grand Rapids, MI, and I would love to help you with your next project! Here you will find my resume and some other general information on me. Thank you for visiting!" />
+    <meta name="description" content="Welcome to my page! I'm a web developer currently living near Grand Rapids, MI, and I would love to help you with your next project! Here you will find my resume and some other general information on me." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!--  Favicon Links    -->
@@ -29,9 +30,226 @@
 	<meta name="theme-color" content="#ffffff">
 
     <!-- External Normalize, CSS, and Javascript-->
-
-  <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    
+    <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
+	<style>
+		/* Main Layout Styles
+		================================ */
+		
+		.main-header {
+			padding-top: 0.625rem;
+			padding-bottom: 0.625rem;
+		    height: 50vh;
+			background:linear-gradient(
+		      rgba(192, 192, 192, 0.6), 
+		      rgba(192, 192, 192, 0.6)
+		    ),  url('IMG/tie-small.jpg'); 
+		    background-size: cover;
+		    background-position: center;
+		    background-attachment: s;
+		    font-family: 'Alegreya', serif;
+		    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.43);
+			-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.43);
+			box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.43);
+		}
+		
+		.main-logo {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 1.5em;
+			text-align: left;
+			display: inline-block;
+		}
+		
+		.main-logo img,
+		.footer-logo img {
+			width: 50px;
+		    height: 50px;
+		}
+		
+		.main-logo a,
+		.heading-item a {
+			display: inline-block;
+			text-align: center;
+			color: white;
+			padding: 0.25rem 0.25rem;
+		    text-decoration: none;
+		}
+		
+		.main-logo a,
+		.main-nav a,
+		.heading-item a,
+		.footer-nav a {
+			transition: 0.5s;
+		}
+		
+		.main-logo a:hover,
+		.main-nav a:hover,
+		.footer-nav a:hover {
+			color: grey;
+		}
+		
+		#selected,
+		#select {
+			color: grey;
+		}
+		
+		.heading-item a:hover {
+			background-color: white;
+			color: grey;
+		}
+		
+		.heading-item,
+		#more-projects {
+			text-align: center;
+		}
+		
+		.heading-item a {
+			border: 3px solid white;
+			width: 8rem;
+			padding: 5px;
+			font-family: 'Roboto', sans-serif;
+		}
+		
+		
+		.main-nav {
+			display: none;
+			list-style: none;
+		}
+		
+		.page-container {
+			top: 0;
+			background-color:#fff;
+			position: absolute;
+		    width: 100%;
+		    z-index: 100;
+		    transition: transform .5s;  
+		}
+		
+		.menu-icon {
+			font-size: 30px;
+			text-decoration: none;
+			color: white;
+			position: absolute;
+			z-index: 0;
+			top: 0;
+			right: 0;
+			margin-top: 1rem;
+			margin-right: 1rem;
+			transition: color .5s;
+		}
+		
+		.active {
+			transform: translateX(-80%);
+		}
+		
+		.hide-mobile {
+			overflow-x: hidden;
+		}
+		
+		.cross {
+			font-size: 90px;
+		}
+		
+		.mobile-nav {
+			position: absolute;
+			z-index: 0;
+			top: 0;
+			right: 0;
+			width: 80%; 
+			text-align: center;
+			background-color: #212121;
+			transform: translate(100%);
+			font-family: 'Droid Sans', sans-serif;
+		}
+		
+		.mobile-nav a:hover {
+			background-color: white;
+			color: black;
+		}
+		
+		.mobile-nav a {
+			text-decoration: none;
+			color: white;
+			width: 100%;	
+			display: block;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			transition: color .7s, background-color .7s;
+		}
+		
+		.main-heading {
+		  color: white;
+		  text-align: center;
+		  font-size: 3rem;
+		  font-weight: 600;
+		  padding-top: 5%;
+		  padding-bottom: 1.5rem;
+		}
+		
+		.content-header {
+		  text-align: center;
+		  padding-bottom: 3.125rem;
+		  font-family: 'Roboto Condensed', sans-serif;
+		}
+		
+		@media (min-width: 768px) { 
+			.main-header {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100vh;
+				background-attachment: fixed;
+			}
+			
+			.main-logo,
+			.main-nav li {
+				float: left;
+			}
+			
+			.main-heading {
+				margin-top: 12rem;	
+				font-size: 5rem;
+			}
+			
+			.main-nav {
+				text-align: right;
+				display: inline-block;
+				padding-left: 50px;
+				float: right;
+			}
+			
+			.menu-icon,
+			.mobile-nav {
+				display: none;
+			}
+			
+			.main-nav a {
+				display: inline-block;
+				text-align: center;
+				color: white;
+				padding: 0.625rem;
+		    	text-decoration: none;
+			}
+			
+			
+			.main-nav li {
+				margin-top: 0.375rem;
+				margin-left: 0.625rem;
+				text-align: center;
+			}
+			
+			.selected {
+				color: grey;
+			}
+		}
+		
+		@media (min-width: 1px) and (max-width: 767px)  { 
+			.main-nav li {
+				margin-top: 0.75rem;
+			}
+		}
+	</style>
 
 </head>
 <body>
@@ -50,7 +268,7 @@
 					<li><a href="index.php" <?php if($pageTitle == "Home") {echo 'id="selected"';} ?>>Home</a></li>
 					<li><a href="bio.php" <?php if($pageTitle == "Bio") {echo 'id="selected"';} ?>>Bio</a></li>
 					<li><a href="portfolio.php" <?php if($pageTitle == "Portfolio") {echo 'id="selected"';} ?>>Portfolio</a></li>
-					<li><a href="resume.php" <?php if($pageTitle == "Resume") {echo 'id="selected"';} ?>>Résumé</a></li>
+					<li><a href="resume.php" <?php if($pageTitle == "Résume") {echo 'id="selected"';} ?>>Résumé</a></li>
 					<li><a href="http://blog.henrymorrow.com/wp" <?php if($pageTitle == "Blog") {echo 'id="selected"';} ?>>Blog</a></li>
 	                <li><a href="contact.php" <?php if($pageTitle == "Contact") {echo 'id="selected"';} ?>>Contact</a></li>
 	                

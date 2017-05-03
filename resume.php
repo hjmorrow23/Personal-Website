@@ -25,13 +25,13 @@ include("inc/header.php");
 					<div class="resume-content">Hope College Holland, MI, July 2013 - April 2016</div>
 					<div class="resume-content">I manage the recruitment efforts for Hope College in the Southwest region of IL. I attended schools visits and college fairs during the Fall and Spring. I also learned HTML and CSS in this role to make adjustments to HTML email templates for Admissions Marketing.</div>
 			        
-			    <h2 class="section-header">Education</h2>
+			    <h2 class="section-header" id="education">Education</h2>
 			    
 					<h3 class="resume-content">Bachelors of Arts in Business Management</h3>
 					<div class="resume-content">Hope College, Holland, MI, Graduated - May 2013</div>
 					
 					<h3 class="resume-content">IES Abroad Society and Culture Program</h3>
-					<div class="resume-content">Kanda University of International Studies, Chiba, Japan, September 2012 - December 2012</div>
+					<div class="resume-content" id="skills">Kanda University of International Studies, Chiba, Japan, September 2012 - December 2012</div>
 			    
 			<div class="flex-group">
 				<h2 class="content-header col-2">Technologies</h2>
@@ -62,7 +62,7 @@ include("inc/header.php");
 				</div>
 			</div>
 		
-			        <h1 class="content-header">Want to connect?</h1>
+			        <h1 class="content-header" id="skills-2">Want to connect?</h1>
 			        <div class="hire" class="content-action">
 				        <a href="contact.php">Contact Me</a>
 				    </div>

@@ -187,16 +187,8 @@
 		  padding-bottom: 1.5rem;
 		}
 		
-		.content-header {
-		  text-align: center;
-		  padding-bottom: 3.125rem;
-		  font-family: 'Roboto Condensed', sans-serif;
-		}
-		
 		@media (min-width: 768px) { 
 			.main-header {
-				position: absolute;
-				top: 0;
 				width: 100%;
 				height: 100vh;
 				background-attachment: fixed;
@@ -268,7 +260,7 @@
 					<li><a href="index.php" <?php if($pageTitle == "Home") {echo 'id="selected"';} ?>>Home</a></li>
 					<li><a href="bio.php" <?php if($pageTitle == "Bio") {echo 'id="selected"';} ?>>Bio</a></li>
 					<li><a href="portfolio.php" <?php if($pageTitle == "Portfolio") {echo 'id="selected"';} ?>>Portfolio</a></li>
-					<li><a href="resume.php" <?php if($pageTitle == "Résume") {echo 'id="selected"';} ?>>Résumé</a></li>
+					<li><a href="resume.php" <?php if($pageTitle == "Résumé") {echo 'id="selected"';} ?>>Résumé</a></li>
 					<li><a href="http://blog.henrymorrow.com/wp" <?php if($pageTitle == "Blog") {echo 'id="selected"';} ?>>Blog</a></li>
 	                <li><a href="contact.php" <?php if($pageTitle == "Contact") {echo 'id="selected"';} ?>>Contact</a></li>
 	                

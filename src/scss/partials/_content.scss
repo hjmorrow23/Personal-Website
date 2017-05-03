@@ -21,7 +21,10 @@
 }
 
 .intro-content::after,
-.project-sample::after {
+.project-sample::after,
+#education::before,
+#skills::after,
+#skills-2::before {
 	content: "";
 	display: block;
 	margin: 5.25rem auto 3rem;

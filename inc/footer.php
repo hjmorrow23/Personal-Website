@@ -11,7 +11,7 @@
 			   <li><a href="index.php" <?php if($pageTitle == "Home") {echo 'id="select"';} ?>>Home</a></li>
 				<li><a href="bio.php" <?php if($pageTitle == "Bio") {echo 'id="select"';} ?>>Bio</a></li>
 				<li><a href="portfolio.php" <?php if($pageTitle == "Portfolio") {echo 'id="select"';} ?>>Portfolio</a></li>
-				<li><a href="resume.php" <?php if($pageTitle == "Resume") {echo 'id="select"';} ?>>Résumé</a></li>
+				<li><a href="resume.php" <?php if($pageTitle == "Résumé") {echo 'id="select"';} ?>>Résumé</a></li>
 				<li><a href="http://blog.henrymorrow.com/wp" <?php if($pageTitle == "Blog") {echo 'id="select"';} ?>>Blog</a></li>
                 <li><a href="contact.php" <?php if($pageTitle == "Contact") {echo 'id="select"';} ?>>Contact</a></li>
 		   	 </ul>
@@ -31,7 +31,7 @@
 		    <a href="index.php">Home</a>
 		    <a href="bio.php">Bio</a>
 		    <a href="portfolio.php">Portfolio</a>
-		    <a href="resume.php">Resume</a>
+		    <a href="resume.php">Résumé</a>
 		    <a href="http://blog.henrymorrow.com/wp">Blog</a>
 		    <a href="contact.php">Contact</a>
 		</div>  

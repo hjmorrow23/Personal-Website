@@ -1,6 +1,6 @@
 <?php
 $project = [];
-//Books
+//Projects
 $project[1] = [
 	"title" => "Brown College Consulting",
 	"img" => "IMG/bcc.jpg",
@@ -25,5 +25,6 @@ $project[3] = [
     "description" => "This project served as a sample of the work done in the Modern Web coLearning course. This is a simple one page responsive site made from a design in Sketch. It was built using HTML, CSS and Javascript. The workflow involved using Node and Gulp. Feel free to check out the code for the project on my github.",
     "status" => "incomplete"
 ];
+
 
 
